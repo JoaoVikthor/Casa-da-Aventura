@@ -1,0 +1,32 @@
+/* Quando a largura da tela é 1200px ou menos */
+@media screen and (max-width: 1200px) {
+  body, h1, h2, h3, p, .navbar, .flexbox {
+    font-size: 14px;
+  }
+  img, .card, .banner, video {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Quando a largura da tela é 600px ou menos */
+@media screen and (max-width: 600px) {
+  body, h1, h2, h3, p, .navbar, .flexbox {
+    font-size: 12px;
+  }
+  img, .card, .banner, video {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Quando a largura da tela é 400px ou menos */
+@media screen and (max-width: 400px) {
+  body, h1, h2, h3, p, .navbar, .flexbox {
+    font-size: 10px;
+  }
+  img, .card, .banner, video {
+    width: 70%;
+    height: auto;
+  }
+}

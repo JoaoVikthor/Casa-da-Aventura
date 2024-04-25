@@ -1,0 +1,67 @@
+.barraDeNavegaçao {
+    overflow: hidden;
+    background-color: #000;
+    z-index: 1000;
+  }
+
+  .barraDeNavegaçao a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .caimento {
+    float: left;
+    overflow: hidden;
+  }
+
+  .caimento .botaodecair {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .barraDeNavegaçao a:hover,
+  .caimento:hover .botaodecair {
+    background-color: #777;
+  }
+
+  .conteudoDeCaida {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .conteudoDeCaida a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .caimento:hover .conteudoDeCaida {
+    display: block;
+
+  }
+
+  .login:last-child {
+    float: right;
+  }

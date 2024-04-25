@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="_cartao/cartao.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="forms.css">
+    <title>Registro de Aluguel</title>
+</head>
+
+<body>
+
+    <!--NavBar-Geral-->
+
+    <div class="barraDeNavegaçao">
+
+        <div class="caimento">
+            <button class="botaodecair">Estadia
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="conteudoDeCaida">
+                <a href="#">Camping Livre</a>
+                <a href="#">Hotéis dos Mares</a>
+            </div>
+        </div>
+        <div class="caimento">
+            <button class="botaodecair">Lazer
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="conteudoDeCaida">
+                <a href="#">TurisPar</a>
+                <a href="#">TOUR PHB</a>
+                <a href="#">Porto do Artesanato</a>
+                <a href="#">SkarRoller</a>
+                <a href="#">Water Kite</a>
+            </div>
+        </div>
+        <div class="caimento">
+            <button class="botaodecair">Alimentação
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="conteudoDeCaida">
+                <a href="#">Bankai</a>
+                <a href="#">Gellaticus</a>
+                <a href="#">Liga On</a>
+            </div>
+        </div>
+        <div class="caimento">
+            <button class="botaodecair">Transporte
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="conteudoDeCaida">
+                <a href="#">Casa da Aventura</a>
+                <a href="#">Alug1car</a>
+                <a href="#">L.A Passeio Marítimo</a>
+                <a href="#">Bem Veículado</a>
+            </div>
+        </div>
+        <a href="#">Sobre</a>
+        <a class="login" href="/_html/login.html">Login</a>
+    </div>
+
+    <!-- Nome -->
+
+    <section class="container-forms">
+        <header> Cadastro de Aluguel </header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Nome Completo</label>
+                <input type="text" placeholder="digite seu nome" required>
+            </div>
+            <br>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="text" placeholder="digite seu Email" required>
+            </div>
+
+            <!-- fone  -->
+            <br>
+            <div class="colunm">
+                <div class="input-box">
+                    <label>Fone</label>
+                    <input type="text" placeholder="digite seu numero" required>
+                </div>
+
+                <div class="input-box">
+                    <label>Data de Nascimento</label>
+                    <input type="date" placeholder="digite seu data de nascimento" required>
+                </div>
+            </div>
+
+            <!--Genero-->
+
+            <div class="gender-box">
+                <br>
+                <h3>genero</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked>
+                        <label for="check">Homen</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender">
+                        <label for="check">Mulher</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender">
+                        <label for="check-other">Outro</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Parte 3-->
+            <br>
+            <div class="input-box adress">
+                <label>Endereço</label>
+                <input type="text" placeholder="Rua" required>
+                <input type="text" placeholder="Bairro" required>
+
+                <div class="colunm">
+                    <div class="select-box">
+                        <select>
+                            <option> Estados </option>
+                            <option> AC </option>
+                            <option> AL </option>
+                            <option> AP </option>
+                            <option> AM </option>
+                            <option> BA </option>
+                            <option> CE </option>
+                            <option> DF </option>
+                            <option> ES </option>
+                            <option> GO </option>
+                            <option> MA </option>
+                            <option> MT </option>
+                            <option> MS </option>
+                            <option> MG </option>
+                            <option> PA </option>
+                            <option> PB </option>
+                            <option> PR </option>
+                            <option> PE </option>
+                            <option> PI </option>
+                            <option> RJ </option>
+                            <option> RN </option>
+                            <option> RS </option>
+                            <option> RO </option>
+                            <option> RR </option>
+                            <option> SC </option>
+                            <option> SP </option>
+                            <option> SE </option>
+                            <option> TO </option>
+                        </select>
+                    </div>
+                </div>
+                <input type="text" placeholder="Cidade" required>
+                <input type="text" placeholder="Cep" required>
+            </div>
+
+            <!--Cartao de Credito-->
+
+            <section class="payment-section">
+                <div class="container">
+                    
+                        <div class="payment-right">
+                            <form action="" class="payment-form">
+                                <h1 class="payment-title">Formas de Pagamento</h1>
+                                <div class="payment-method">
+                                    <input type="radio" name="payment-method" id="method-1" checked>
+                                    <label for="method-1" class="payment-method-item">
+                                        <img src="_cartao/images/visa.png" alt="">
+                                    </label>
+                                    <input type="radio" name="payment-method" id="method-2">
+                                    <label for="method-2" class="payment-method-item">
+                                        <img src="_cartao/images/mastercard.png" alt="">
+                                    </label>
+                                    <input type="radio" name="payment-method" id="method-3">
+                                    <label for="method-3" class="payment-method-item">
+                                        <img src="_cartao/images/paypal.png" alt="">
+                                    </label>
+
+                                </div>
+                                <div class="payment-form-group">
+                                    <input type="email" placeholder=" " class="payment-form-control" id="email">
+                                    <label for="email" class="payment-form-label payment-form-label-required">Email
+                                    </label>
+                                </div>
+                                <div class="payment-form-group">
+                                    <input type="text" placeholder=" " class="payment-form-control" id="card-number">
+                                    <label for="card-number"
+                                        class="payment-form-label payment-form-label-required">Numero do Cartão
+                                    </label>
+                                </div>
+                                <div class="payment-form-group-flex">
+                                    <div class="payment-form-group">
+                                        <input type="date" placeholder=" " class="payment-form-control"
+                                            id="expiry-date">
+                                        <label for="expiry-date"
+                                            class="payment-form-label payment-form-label-required">Validade</label>
+                                    </div>
+                                    <div class="payment-form-group">
+                                        <input type="text" placeholder=" " class="payment-form-control" id="cvv">
+                                        <label for="cvv"
+                                            class="payment-form-label payment-form-label-required">CVV</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="payment-form-submit-button"><i class="ri-wallet-line"></i>
+                                    Pagar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </form>
+    </section>
+
+    <!--  Footer -->
+
+    <div class="copyright">
+
+        <a href="/Casadaaventura.html" class="logo-baixo"><img src="/_Imagens/logo/Logo Sem Nome/Logo sem Nome (Preto).png"
+                alt="logo-baixo"></a>
+
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <p>&#169; Casa da Aventura Todos os direitos reservados</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

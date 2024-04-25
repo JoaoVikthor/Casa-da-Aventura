@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #121212;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing:0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+}
+.header{
+    background: linear-gradient(90deg, #8B4503 0%, #fdd08c 100%);
+    padding: 24px;
+    text-align: center;
+    color: #ffff;
+}
+.form{
+    padding: 18px;
+}
+.form-contant{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.form-contant label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.form-contant input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf
+}
+.form-contant a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+   visibility:hidden;
+}
+.cadastrar{
+    background-color: #8B4503;
+    color: #ffff;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+.criar{
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 102, 255);
+}
+.form-contant.error input{
+    border-color:#ff3b25;
+}
+.form-contant.error a{
+    color: #ff3b25;
+    visibility: visible;
+}
+/*#login{
+    display: none;
+}*/

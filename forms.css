@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background: #eeeff1
+}
+
+header{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: bolder;
+}
+
+.container-forms {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    left: 600px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container-forms header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-forms .form {
+    margin-top: 70px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #333;
+
+}
+
+.form .input-box input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.form :where(.input-box input, .select-box ) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+
+}
+
+.form .colunm{
+    display: flex;
+    column-gap: 15px;
+}
+
+.form.gender-box{
+    margin-top: 20px;
+}
+
+.gender-box h3{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.form:where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.form.gender{
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.form:where(.gender input, .gender label){
+    cursor: pointer;
+}
+
+.adress:where(input, .select-box){
+    margin-top: 15px;
+}
+
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+
+.payment-form-submit-button{
+    background: var(#fe5b3d);
+}
+
+.payment-right{
+    padding-left: 15px;
+}
+
+.payment-right button{
+    padding: 15px;
+    background-color: #444;
+    color: #eeeff1;
+    font-size: 15px;
+}
+
+.payment-right button:hover {
+    padding: 15px;
+    background-color: #fe5b3d;
+    color: #eeeff1;
+    font-size: 15px;
+}
+
+.payment-form-group .payment-form-label payment-form-label-required{
+    font-size: 15px;
+} 
+
+/* footer */
+
+.copyright {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.logo-baixo img{
+    width: 150px;
+    height: 150px;
+}
+
+/* responsividade */
+
+@media screen and ( max-width: 500px) {
+
+    .container-forms{
+        left: 1px;
+    }
+
+    .form .colunm{
+        flex-wrap: wrap;
+    }
+    
+    .form:where(.gender-option, .gender){
+        row-gap: 15px;
+    }
+
+    .payment-right button{
+        padding: 15px;
+        background-color: #444;
+        color: #eeeff1;
+        font-size: 15px;
+    }
+    
+    .payment-right button:hover {
+        padding: 15px;
+        background-color: #fe5b3d;
+        color: #eeeff1;
+        font-size: 15px;
+    }
+    
+    .payment-form-group .payment-form-label payment-form-label-required{
+        font-size: 15px;
+    } 
+
+}

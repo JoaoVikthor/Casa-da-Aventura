@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .barraDeNavegaçao {
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .barraDeNavegaçao a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .caimento {
+      float: left;
+      overflow: hidden;
+    }
+
+    .caimento .botaodecair {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .barraDeNavegaçao a:hover,
+    .caimento:hover .botaodecair {
+      background-color: #777;
+    }
+
+    .conteudoDeCaida {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .conteudoDeCaida a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .caimento:hover .conteudoDeCaida {
+      display: block;
+    }
+
+    .login:last-child {
+      float: right;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="barraDeNavegaçao">
+
+    <div class="caimento">
+      <button class="botaodecair">Estadia
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="conteudoDeCaida">
+        <a href="#">Camping Livre</a>
+        <a href="#">Hotéis dos Mares</a>
+      </div>
+    </div>
+    <div class="caimento">
+      <button class="botaodecair">Lazer
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="conteudoDeCaida">
+        <a href="#">TurisPar</a>
+        <a href="#">TOUR PHB</a>
+        <a href="#">Porto do Artesanato</a>
+        <a href="#">SkarRoller</a>
+        <a href="#">Water Kite</a>
+      </div>
+    </div>
+    <div class="caimento">
+      <button class="botaodecair">Alimentação
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="conteudoDeCaida">
+        <a href="#">Bankai</a>
+        <a href="#">Gellaticus</a>
+        <a href="#">Liga On</a>
+      </div>
+    </div>
+    <div class="caimento">
+      <button class="botaodecair">Transporte
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="conteudoDeCaida">
+        <a href="#">Casa da Aventura</a>
+        <a href="#">Alug1car</a>
+        <a href="#">L.A Passeio Marítimo</a>
+        <a href="#">Bem Veículado</a>
+      </div>
+    </div>
+    <a href="#">Sobre</a>
+    <a class="login" href="#">Login</a>
+  </div>
+
+  </head>
+
+  <body>
+
+  </body>
+
+</html>
