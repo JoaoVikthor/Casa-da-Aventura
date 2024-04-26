@@ -663,6 +663,15 @@ header {
 
 @media (max-width: 568px) {
 
+    .banner img{
+        padding-left: 85px;
+        width: 260px;
+    }
+
+    header{
+        background-color:#fff;
+    }
+
     .box {
         padding-left: 50px;
         font-size: 14px;
@@ -784,7 +793,7 @@ header {
 
 }
 
-@media(max-width: 350px) {
+@media(max-width: 390px) {
     .header {
         padding: 6px 14px;
     }
@@ -812,6 +821,68 @@ header {
 
     .section {
         padding: 50px 14px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    /* como funciona */
+
+    .ride-container {
+        flex-wrap: wrap;
+        padding-right: 15px;
+    }
+
+    /* Calendario */
+
+    .input-box {
+        padding: 10px;
+        flex-wrap: wrap;
+        padding-left: 1px;
+        justify-content: center;
+        border: #fff solid;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .box .btn {
+        padding-top: 1px;
+        padding: 10px;
+        background-color: #444;
+        border-radius: 5px;
+        color: #eeeff1;
+    }
+
+    .box a {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .box span {
+        padding-top: 15px;
+        font-size: 25px;
+        color: #fe5b3d;
+    }
+
+    .ride span{
+        color: #fe5b3d;
+    }
+
+    .ride h2{
+        color: #fe5b3d;
+        font-size: 15px;
+    }
+
+    .about span{
+        color: #fe5b3d;
+    }
+
+    .reviews span{
+        color: #fe5b3d;
     }
 
 }
