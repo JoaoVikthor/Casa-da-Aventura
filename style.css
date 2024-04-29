@@ -663,6 +663,17 @@ header {
 
 @media (max-width: 568px) {
 
+/* NavBar Geral*/
+
+    .barraDeNavegaçao .caimento .botaodecair{
+        font-size: 11px;
+        padding: 14px 10px;
+    }
+
+    .dois {
+        font-size: 11px;
+    }
+
     .banner img{
         padding-left: 85px;
         width: 260px;
@@ -726,9 +737,6 @@ header {
         margin-bottom: -50px;
     }
 
-    .dois {
-        font-size: 16px;
-    }
 
     .navbar {
         display: none;
@@ -795,14 +803,26 @@ header {
 
 @media(max-width: 395px) {
 
-  
+  /* NavBar Geral*/
+
+  .barraDeNavegaçao .caimento .botaodecair{
+    font-size: 10px;
+    padding: 14px 10px;
+}
+
+.dois {
+    font-size: 11px;
+}
 
 /* Logo */
 
-    .logo .img {
-        width: 30px;
-    }
+    /* Logo */
 
+    .banner .logo img {
+        padding-left: 55px;
+        width: 250px;
+    }
+    
     .section {
         padding: 50px 14px;
     }
@@ -907,7 +927,40 @@ header {
 
 }
 
+@media (max-width: 380px){
+
+    /* NavBar Geral*/
+
+    .barraDeNavegaçao .caimento .botaodecair{
+        font-size: 10px;
+        padding: 14px 10px;
+    }
+
+    .dois {
+        font-size: 9px;
+    }
+
+    /* Logo */
+
+    .banner .logo img {
+        padding-left: 55px;
+        width: 250px;
+    }
+
+}
+
 @media(max-width: 365px) {
+
+    /* NavBar Geral*/
+
+    .barraDeNavegaçao .caimento .botaodecair{
+        font-size: 9px;
+        padding: 14px 10px;
+    }
+
+    .dois {
+        font-size: 9px;
+    }
 
 /* Logo */
 
@@ -935,10 +988,16 @@ header {
 
 @media(max-width: 325px) {
 
-    body{
-        max-width: 320px;
-        width: 320px;
-    }
+   /* NavBar Geral*/
+
+   .barraDeNavegaçao .caimento .botaodecair{
+    font-size: 7px;
+    padding: 10px 9px;
+}
+
+.dois {
+    font-size: 7px;
+}
 
     /* Texto da Header */
 
