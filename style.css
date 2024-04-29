@@ -673,7 +673,7 @@ header {
     }
 
     .box {
-        padding-left: 50px;
+        padding-left: 10px;
         font-size: 14px;
     }
 
@@ -793,13 +793,54 @@ header {
 
 }
 
-@media(max-width: 390px) {
+@media(max-width: 395px) {
+
+  
+
+/* Logo */
+
+    .logo .img {
+        width: 30px;
+    }
+
+    .section {
+        padding: 50px 14px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+  /* Texto da Header */
+
+    .text p{
+        font-size: 15px;
+        text-align:start;
+    }
+
+    .text span{
+        font-size: 50px;
+    }
+
+    .text h1{
+        font-size: 50px;
+    }
+
     .header {
         padding: 6px 14px;
     }
 
+    /* como funciona */
+
+    .ride-container {
+        flex-wrap: wrap;
+        padding-right: 15px;
+    }
+
+    /* Calendario */
+
     .box {
-        padding-left: 50px;
+        padding-left: 10px;
         font-size: 14px;
     }
 
@@ -814,27 +855,6 @@ header {
     .box span {
         font-size: 14px;
     }
-
-    .logo .img {
-        width: 30px;
-    }
-
-    .section {
-        padding: 50px 14px;
-    }
-
-    .navbar {
-        display: none;
-    }
-
-    /* como funciona */
-
-    .ride-container {
-        flex-wrap: wrap;
-        padding-right: 15px;
-    }
-
-    /* Calendario */
 
     .input-box {
         padding: 10px;
@@ -884,5 +904,63 @@ header {
     .reviews span{
         color: #fe5b3d;
     }
+
+}
+
+@media(max-width: 365px) {
+
+/* Logo */
+
+    .banner .logo img {
+        padding-left: 55px;
+        width: 250px;
+    }
+
+/* Texto da Header */
+
+.text p{
+    font-size: 15px;
+    text-align:start;
+}
+
+.text span{
+    font-size: 48px;
+}
+
+.text h1{
+    font-size: 50px;
+}
+
+}
+
+@media(max-width: 325px) {
+
+    body{
+        max-width: 320px;
+        width: 320px;
+    }
+
+    /* Texto da Header */
+
+.text p{
+    font-size: 0.62rem;
+    text-align:start;
+}
+
+.text span{
+    font-size: 40px;
+}
+
+.text h1{
+    font-size: 40px;
+}
+
+/* Logo */
+
+.banner .logo img {
+    padding-left: 55px;
+    width: 200px;
+
+}
 
 }
